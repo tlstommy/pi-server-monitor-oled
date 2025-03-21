@@ -8,11 +8,11 @@ Enable i2c
 
 ##  Clone U6143_ssd1306 library 
 ```bash
-git clone https://github.com/UCTRONICS/U6143_ssd1306.git
+git clone https://github.com/tlstommy/pi-server-monitor-oled.git
 ```
 ## Compile 
 ```bash
-cd U6143_ssd1306/C
+cd pi-server-monitor-oled/codes
 ```
 ```bash
 sudo make clean && sudo make 
@@ -29,7 +29,7 @@ sudo nano /etc/rc.local
 ```
 - Add command to the rc.local file
 ```bash
-cd /home/pi/U6143_ssd1306/C
+cd /home/pi/pi-server-monitor-oled/code
 sudo make clean 
 sudo make 
 sudo ./display &
