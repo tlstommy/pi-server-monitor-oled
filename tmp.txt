@@ -1,0 +1,1 @@
+sudo apt update && sudo apt upgrade -y && sudo apt install -y git && git clone https://github.com/tlstommy/pi-server-monitor-oled.git && cd pi-server-monitor-oled && sudo bash setup.sh
